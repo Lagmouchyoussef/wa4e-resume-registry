@@ -1,0 +1,6 @@
+open ftpupload.net
+user if0_40743868 myftppassword
+cd htdocs
+mput *.php
+close
+quit

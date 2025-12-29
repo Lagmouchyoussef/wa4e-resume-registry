@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Profile View</title>
+<title>Profile View c8bd8786</title>
 <?php require_once "pdo.php"; require_once "util.php"; ?>
 </head>
 <body>

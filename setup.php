@@ -1,21 +1,5 @@
 <?php
 
-$host = 'localhost';
-$port = 3306;
-$dbname = 'misc';
-$username = 'root';
-$password = '';
-
-try {
-    // Connect without database to create it
-    $pdo_temp = new PDO("mysql:host=$host;port=$port", $username, $password);
-    $pdo_temp->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $pdo_temp->exec("CREATE DATABASE IF NOT EXISTS `$dbname` CHARACTER SET utf8 COLLATE utf8_general_ci");
-    echo("<p>Database 'misc' created or already exists</p>\n");
-} catch (PDOException $e) {
-    die("Database creation failed: " . $e->getMessage());
-}
-
 require_once "pdo.php";
 
 $pdo->query("CREATE TABLE IF NOT EXISTS users (

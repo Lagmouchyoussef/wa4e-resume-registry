@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Resume Registry</title>
+<title>Resume Registry c8bd8786</title>
 <?php require_once "pdo.php"; require_once "util.php"; ?>
 </head>
 <body>

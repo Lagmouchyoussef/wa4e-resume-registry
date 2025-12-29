@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Delete Profile</title>
+<title>Delete Profile c8bd8786</title>
 <?php require_once "pdo.php"; require_once "util.php"; ?>
 </head>
 <body>
